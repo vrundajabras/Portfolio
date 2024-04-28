@@ -1,6 +1,6 @@
 function downloadDocument() {
 
-    var documentUrl = '../assets/resume/Vrunda-Jabras-Resume.pdf';
+    var documentUrl = './assets/resume/Vrunda-Jabras-Resume.pdf';
     var downloadLink = document.createElement('a');
     downloadLink.href = documentUrl;
     downloadLink.download = 'document.pdf';
