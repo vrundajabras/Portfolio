@@ -3,7 +3,7 @@ function downloadDocument() {
     var documentUrl = './assets/resume/Vrunda-Jabras-Resume.pdf';
     var downloadLink = document.createElement('a');
     downloadLink.href = documentUrl;
-    downloadLink.download = 'document.pdf';
+    downloadLink.download = 'Vrunda-Jabras-Resume.pdf';
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
